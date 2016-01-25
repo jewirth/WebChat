@@ -1,0 +1,36 @@
+<!--
+WebChat - a node.js web chat
+Copyright (C) 2016  Jens Wirth <jewirth@gmail.com>
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>chat</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="style.css" />
+<script src="socket.io/socket.io.js"></script>
+<script src="jquery.min.js"></script>
+<script src="client.js"></script>
+</head>
+<body>
+<ul id="content"></ul>
+<footer>
+    <input id="name" type="text" style="width:20%;" placeholder="your name" />
+    <input id="text" type="text" style="width:50%;"placeholder="message..." />
+</footer>
+</body>
+</html>
