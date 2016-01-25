@@ -24,6 +24,10 @@ body{
   background-color: #000000;
 
 }
+ b, strong {
+	color: #00A000;
+	font-style: italic;
+}
 header, footer{
 	display: block;
 	position: fixed;
