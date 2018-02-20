@@ -22,7 +22,7 @@ var express = require('express')
 ,   io = require('socket.io').listen(server)
 ,   fs = require('fs');
 
-server.listen(80);
+server.listen(3001);
 
 var history;
 
